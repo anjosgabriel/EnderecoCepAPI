@@ -3,16 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Se ache</title>
+    <title>Achaí</title>
     <link rel="icon" href="./img/seache.png">
     <link rel="stylesheet" type="text/css" href="css/estilo.css">
 </head>
 <body>
-    <div id="apresentacao">
-        <h1>SE ACHE</h1>
-        <h3>Seja bem vindo à plataforma Se ache</h3>
+    <section id="apresentacao">
+        <div id="titulo">
+           <h1>ACHAÍ</h1> 
+        </div>
+        <div id="info">
+            <p>Copyright &copy; 2025 - by Gabriel dos Anjos</p>
+            <p id="linkedin"><a href="https://www.linkedin.com/in/gabriel-dos-anjos-a913401a5/" target="_blank">
+                <picture>
+                    <img src="./img/linkedin.png" alt="Meu Linkedin"
+                        width="45">
+                </picture>
+            </a></p>
+            <p id="git"><a href="https://github.com/anjosgabriel" target="_blank">
+                <picture>
+                    <img src="./img/github.png" alt="Meu GitHub"
+                        width="45">
+                </picture>
+            </a></p>
+        </div>    
+    </section>
+
+    <div id="texto">
         <p>Essa plataforma permite que você insira o Cep de onde você está e seja imprimido o nome da rua, bairro, cidade, etc...</p>
-        <p>Bora testar?</p>
     </div>
 
     <div id="inserirCep">
@@ -28,22 +46,6 @@
         <p>Município <input type="text" id="municipio" /></p>
     </div>
 
-    <script src="./js/cep.js"></script>
-
-    <footer id="rodape">
-        <p>Copyright &copy; 2025 - by Gabriel dos Anjos</p>
-        <p id="linkedin"><a href="https://www.linkedin.com/in/gabriel-dos-anjos-a913401a5/" target="_blank">
-            <picture>
-                <img src="./img/linkedin.png" alt="Meu Linkedin"
-                    width="45">
-            </picture>
-        </a></p>
-        <p id="git"><a href="https://github.com/anjosgabriel" target="_blank">
-            <picture>
-                <img src="./img/github.png" alt="Meu GitHub"
-                    width="45">
-            </picture>
-        </a></p>
-    </footer>
+    <script src="./js/script.js"></script>
 </body>
 </html>
