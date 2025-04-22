@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Achaí</title>
+    <title>Acha&iacute;</title>
     <link rel="icon" href="./img/seache.png">
-    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+    <link rel="stylesheet" type="text/css" href="css/achai.css">
 </head>
 <body>
     <section id="apresentacao">
         <div id="titulo">
-           <h1>ACHAÍ</h1> 
+           <h1>ACHA&Iacute;</h1> 
         </div>
         <div id="info">
             <p>Copyright &copy; 2025 - by Gabriel dos Anjos</p>
@@ -30,20 +30,23 @@
     </section>
 
     <div id="texto">
-        <p>Essa plataforma permite que você insira o Cep de onde você está e seja imprimido o nome da rua, bairro, cidade, etc...</p>
+        <p>Essa plataforma permite que voc&ecirc; insira o Cep de onde voc&ecirc; est&aacute; e seja imprimido a RUA, BAIRRO e CIDADE.</p>
     </div>
 
     <div id="inserirCep">
-        <p>Insira um Cep aqui:</p>
-        <p>CEP <input type="text" id="cep" />
-            <button id="busca_cep">Busca</button>
-        </p>
+        <h1>Insira um Cep aqui:</h1>
+        <div id="inserindo">
+            <p><input type="text" id="cep" />
+                <button id="busca_cep">Busca</button>
+            </p> 
+        </div>
+       
     </div>
 
     <div id="exibirEndereco">
-        <p>Logradouro <input type="text" id="logradouro" /></p>
-        <p>Bairro <input type="text" id="bairro" /></p>
-        <p>Município <input type="text" id="municipio" /></p>
+        <p id="exibirLogradouro">Logradouro <input type="text" id="logradouro" /></p>
+        <p id="exibirBairro">Bairro <input type="text" id="bairro" /></p>
+        <p id="exibirCidade">Munic&iacute;pio <input type="text" id="municipio" /></p>
     </div>
 
     <script src="./js/script.js"></script>
