@@ -105,13 +105,25 @@ body {
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
-#exibirEndereco p {
+#pLogradouro {
     margin: 10px 0;
-    font-size: 16px;
+    font-size: 26px;
     font-family: monospace;
 }
 
-#exibirLogradouro input {
+#pBairro {
+    margin: 10px 0;
+    font-size: 26px;
+    font-family: monospace;
+}
+
+#pCidade {
+    margin: 10px 0;
+    font-size: 26px;
+    font-family: monospace;
+}
+
+#logradouro {
     padding: 8px;
     font-size: 14px;
     width: 100%;
@@ -120,22 +132,32 @@ body {
     border-radius: 5px;
 }
 
-#exibirBairro input {
+#bairro {
     padding: 8px;
     font-size: 14px;
-    margin-left: 35px;
+    margin-left: 57px;
     width: 100%;
     max-width: 300px;
     border: 1px solid #ccc;
     border-radius: 5px;
 }
 
-#exibirCidade input {
+#municipio {
     padding: 8px;
     font-size: 14px;
-    margin-left: 10px;
+    margin-left: 14px;
     width: 100%;
     max-width: 300px;
     border: 1px solid #ccc;
     border-radius: 5px;
+}
+
+#dvImgExibicao {
+    margin-left: 650px;
+    margin-top: -150px;
+}
+
+#imgExibicao {
+    width: 150px;
+    margin-left: 100px;
 }
